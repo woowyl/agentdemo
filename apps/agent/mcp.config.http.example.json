@@ -1,0 +1,9 @@
+{
+  "$comment": "Run `pnpm dev:weather:http` first, then start the agent with MCP_CONFIG=apps/agent/mcp.config.http.example.json pnpm dev",
+  "mcpServers": {
+    "weather": {
+      "transport": "http",
+      "url": "http://127.0.0.1:8787/mcp"
+    }
+  }
+}

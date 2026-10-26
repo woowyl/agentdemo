@@ -1,0 +1,11 @@
+{
+  "$comment": "stdio paths are resolved relative to the workspace root (the directory containing pnpm-workspace.yaml).",
+  "mcpServers": {
+    "weather": {
+      "transport": "stdio",
+      "command": "node",
+      "args": ["--import", "tsx", "src/index.ts"],
+      "cwd": "servers/weather"
+    }
+  }
+}
